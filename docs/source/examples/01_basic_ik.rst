@@ -34,17 +34,25 @@ All examples can be run by first cloning the PyRoki repository, which includes t
 
             # Create robot.
             robot = pk.Robot.from_urdf(urdf)
+            print("robot from_urdf created..<enter>")
+            input()
 
             # Set up visualizer.
             server = viser.ViserServer()
             server.scene.add_grid("/ground", width=2, height=2)
             urdf_vis = ViserUrdf(server, urdf, root_node_name="/base")
+            print("setup visualizer..<enter>")
+            input()
 
             # Create interactive controller with initial position.
             ik_target = server.scene.add_transform_controls(
                 "/ik_target", scale=0.2, position=(0.61, 0.0, 0.56), wxyz=(0, 0, 1, 0)
             )
             timing_handle = server.gui.add_number("Elapsed (ms)", 0.001, disabled=True)
+            print("setup server scene with initial position..<enter>")
+
+            print("on your browser, open http://localhost:8080/..<enter>")
+            input()
 
             while True:
                 # Solve IK.
@@ -61,6 +69,8 @@ All examples can be run by first cloning the PyRoki repository, which includes t
                 timing_handle.value = 0.99 * timing_handle.value + 0.01 * (elapsed_time * 1000)
 
                 # Update visualizer.
+                print("\nIK solution: ", solution, " update_cfg in visualizer..")
+                input()
                 urdf_vis.update_cfg(solution)
 
 

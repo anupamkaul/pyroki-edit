@@ -1,0 +1,196 @@
+(base) anupkaul@147dda4c0851 pyroki % ls
+benchmark      docs           examples       LICENSE        pyproject.toml README.md      src
+(base) anupkaul@147dda4c0851 pyroki % pip install -e .
+Obtaining file:///Users/anupkaul/other_git/robots/pyroki
+  Installing build dependencies ... done
+  Checking if build backend supports build_editable ... done
+  Getting requirements to build editable ... done
+  Preparing editable metadata (pyproject.toml) ... done
+Collecting jaxls@ git+https://github.com/brentyi/jaxls.git (from pyroki==0.0.0)
+  Cloning https://github.com/brentyi/jaxls.git to /private/var/folders/4_/x8jlyh354fl6r5v1zpw5pxn80000gr/T/pip-install-xviwsbpe/jaxls_43cc97b9e5654327936de7709591988a
+  Running command git clone --filter=blob:none --quiet https://github.com/brentyi/jaxls.git /private/var/folders/4_/x8jlyh354fl6r5v1zpw5pxn80000gr/T/pip-install-xviwsbpe/jaxls_43cc97b9e5654327936de7709591988a
+  Resolved https://github.com/brentyi/jaxls.git to commit e19f32539a1416f65257c3e9b0bbd843f469d924
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting tyro (from pyroki==0.0.0)
+  Downloading tyro-0.9.27-py3-none-any.whl.metadata (11 kB)
+Collecting jax>=0.4.0 (from pyroki==0.0.0)
+  Downloading jax-0.7.0-py3-none-any.whl.metadata (13 kB)
+Collecting jaxlib (from pyroki==0.0.0)
+  Downloading jaxlib-0.4.38-cp311-cp311-macosx_10_14_x86_64.whl.metadata (1.0 kB)
+Collecting jaxlie>=1.0.0 (from pyroki==0.0.0)
+  Downloading jaxlie-1.5.0-py3-none-any.whl.metadata (4.7 kB)
+Collecting jax_dataclasses>=1.0.0 (from pyroki==0.0.0)
+  Downloading jax_dataclasses-1.6.2-py3-none-any.whl.metadata (7.0 kB)
+Collecting jaxtyping (from pyroki==0.0.0)
+  Downloading jaxtyping-0.3.2-py3-none-any.whl.metadata (7.0 kB)
+Collecting loguru (from pyroki==0.0.0)
+  Downloading loguru-0.7.3-py3-none-any.whl.metadata (22 kB)
+Collecting robot_descriptions (from pyroki==0.0.0)
+  Downloading robot_descriptions-1.20.0-py3-none-any.whl.metadata (28 kB)
+Collecting yourdfpy (from pyroki==0.0.0)
+  Downloading yourdfpy-0.0.58-py3-none-any.whl.metadata (9.0 kB)
+Collecting trimesh (from pyroki==0.0.0)
+  Downloading trimesh-4.7.1-py3-none-any.whl.metadata (18 kB)
+Collecting viser (from pyroki==0.0.0)
+  Downloading viser-1.0.3-py3-none-any.whl.metadata (5.1 kB)
+Collecting pyliblzfse (from pyroki==0.0.0)
+  Downloading pyliblzfse-0.4.1-cp311-cp311-macosx_10_9_universal2.whl.metadata (2.1 kB)
+INFO: pip is looking at multiple versions of jax to determine which version is compatible with other requirements. This could take a while.
+Collecting jax>=0.4.0 (from pyroki==0.0.0)
+  Downloading jax-0.6.2-py3-none-any.whl.metadata (13 kB)
+  Downloading jax-0.6.1-py3-none-any.whl.metadata (13 kB)
+  Downloading jax-0.6.0-py3-none-any.whl.metadata (22 kB)
+  Downloading jax-0.5.3-py3-none-any.whl.metadata (22 kB)
+  Downloading jax-0.5.2-py3-none-any.whl.metadata (22 kB)
+  Downloading jax-0.5.1-py3-none-any.whl.metadata (22 kB)
+  Downloading jax-0.5.0-py3-none-any.whl.metadata (22 kB)
+INFO: pip is still looking at multiple versions of jax to determine which version is compatible with other requirements. This could take a while.
+  Downloading jax-0.4.38-py3-none-any.whl.metadata (22 kB)
+Collecting ml_dtypes>=0.4.0 (from jax>=0.4.0->pyroki==0.0.0)
+  Downloading ml_dtypes-0.5.3-cp311-cp311-macosx_10_9_universal2.whl.metadata (8.9 kB)
+Requirement already satisfied: numpy>=1.24 in /opt/anaconda3/lib/python3.11/site-packages (from jax>=0.4.0->pyroki==0.0.0) (1.26.4)
+Requirement already satisfied: opt_einsum in /opt/anaconda3/lib/python3.11/site-packages (from jax>=0.4.0->pyroki==0.0.0) (3.3.0)
+Requirement already satisfied: scipy>=1.10 in /opt/anaconda3/lib/python3.11/site-packages (from jax>=0.4.0->pyroki==0.0.0) (1.11.4)
+Requirement already satisfied: typing_extensions in /opt/anaconda3/lib/python3.11/site-packages (from jax_dataclasses>=1.0.0->pyroki==0.0.0) (4.14.1)
+Requirement already satisfied: rich>=13.0.0 in /opt/anaconda3/lib/python3.11/site-packages (from jaxls@ git+https://github.com/brentyi/jaxls.git->pyroki==0.0.0) (13.3.5)
+Requirement already satisfied: termcolor in /opt/anaconda3/lib/python3.11/site-packages (from jaxls@ git+https://github.com/brentyi/jaxls.git->pyroki==0.0.0) (1.1.0)
+Requirement already satisfied: tqdm in /opt/anaconda3/lib/python3.11/site-packages (from jaxls@ git+https://github.com/brentyi/jaxls.git->pyroki==0.0.0) (4.66.3)
+Collecting wadler-lindig>=0.1.3 (from jaxtyping->pyroki==0.0.0)
+  Downloading wadler_lindig-0.1.7-py3-none-any.whl.metadata (17 kB)
+Requirement already satisfied: GitPython>=3.1.18 in /opt/anaconda3/lib/python3.11/site-packages (from robot_descriptions->pyroki==0.0.0) (3.1.37)
+Collecting docstring-parser>=0.15 (from tyro->pyroki==0.0.0)
+  Downloading docstring_parser-0.17.0-py3-none-any.whl.metadata (3.5 kB)
+Collecting shtab>=1.5.6 (from tyro->pyroki==0.0.0)
+  Downloading shtab-1.7.2-py3-none-any.whl.metadata (7.4 kB)
+Collecting typeguard>=4.0.0 (from tyro->pyroki==0.0.0)
+  Downloading typeguard-4.4.4-py3-none-any.whl.metadata (3.3 kB)
+Requirement already satisfied: imageio<3.0.0,>=2.0.0 in /opt/anaconda3/lib/python3.11/site-packages (from viser->pyroki==0.0.0) (2.33.1)
+Collecting msgspec<1.0.0,>=0.18.6 (from viser->pyroki==0.0.0)
+  Downloading msgspec-0.19.0-cp311-cp311-macosx_10_9_x86_64.whl.metadata (6.9 kB)
+Collecting nodeenv<2.0.0,>=1.8.0 (from viser->pyroki==0.0.0)
+  Downloading nodeenv-1.9.1-py2.py3-none-any.whl.metadata (21 kB)
+Requirement already satisfied: opencv-python<5.0.0,>=4.0.0.21 in /opt/anaconda3/lib/python3.11/site-packages (from viser->pyroki==0.0.0) (4.8.1.78)
+Collecting psutil<8.0.0,>=5.9.5 (from viser->pyroki==0.0.0)
+  Downloading psutil-7.0.0-cp36-abi3-macosx_10_9_x86_64.whl.metadata (22 kB)
+Requirement already satisfied: requests<3.0.0,>=2.0.0 in /opt/anaconda3/lib/python3.11/site-packages (from viser->pyroki==0.0.0) (2.32.2)
+Requirement already satisfied: scikit-image<1.0.0,>=0.18.0 in /opt/anaconda3/lib/python3.11/site-packages (from viser->pyroki==0.0.0) (0.22.0)
+Requirement already satisfied: websockets<16.0.0,>=13.1 in /opt/anaconda3/lib/python3.11/site-packages (from viser->pyroki==0.0.0) (15.0.1)
+Requirement already satisfied: lxml in /opt/anaconda3/lib/python3.11/site-packages (from yourdfpy->pyroki==0.0.0) (4.9.3)
+Requirement already satisfied: six in /opt/anaconda3/lib/python3.11/site-packages (from yourdfpy->pyroki==0.0.0) (1.16.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in /opt/anaconda3/lib/python3.11/site-packages (from GitPython>=3.1.18->robot_descriptions->pyroki==0.0.0) (4.0.7)
+Requirement already satisfied: pillow>=8.3.2 in /opt/anaconda3/lib/python3.11/site-packages (from imageio<3.0.0,>=2.0.0->viser->pyroki==0.0.0) (10.2.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /opt/anaconda3/lib/python3.11/site-packages (from requests<3.0.0,>=2.0.0->viser->pyroki==0.0.0) (2.0.4)
+Requirement already satisfied: idna<4,>=2.5 in /opt/anaconda3/lib/python3.11/site-packages (from requests<3.0.0,>=2.0.0->viser->pyroki==0.0.0) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/anaconda3/lib/python3.11/site-packages (from requests<3.0.0,>=2.0.0->viser->pyroki==0.0.0) (2.0.7)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/anaconda3/lib/python3.11/site-packages (from requests<3.0.0,>=2.0.0->viser->pyroki==0.0.0) (2024.7.4)
+Requirement already satisfied: markdown-it-py<3.0.0,>=2.2.0 in /opt/anaconda3/lib/python3.11/site-packages (from rich>=13.0.0->jaxls@ git+https://github.com/brentyi/jaxls.git->pyroki==0.0.0) (2.2.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /opt/anaconda3/lib/python3.11/site-packages (from rich>=13.0.0->jaxls@ git+https://github.com/brentyi/jaxls.git->pyroki==0.0.0) (2.15.1)
+Collecting networkx>=2.8 (from scikit-image<1.0.0,>=0.18.0->viser->pyroki==0.0.0)
+  Downloading networkx-3.5-py3-none-any.whl.metadata (6.3 kB)
+Requirement already satisfied: tifffile>=2022.8.12 in /opt/anaconda3/lib/python3.11/site-packages (from scikit-image<1.0.0,>=0.18.0->viser->pyroki==0.0.0) (2023.4.12)
+Requirement already satisfied: packaging>=21 in /opt/anaconda3/lib/python3.11/site-packages (from scikit-image<1.0.0,>=0.18.0->viser->pyroki==0.0.0) (24.2)
+Requirement already satisfied: lazy_loader>=0.3 in /opt/anaconda3/lib/python3.11/site-packages (from scikit-image<1.0.0,>=0.18.0->viser->pyroki==0.0.0) (0.3)
+Requirement already satisfied: colorlog in /opt/anaconda3/lib/python3.11/site-packages (from trimesh[easy]>=3.11.2->yourdfpy->pyroki==0.0.0) (6.8.2)
+Collecting manifold3d>=2.3.0 (from trimesh[easy]>=3.11.2->yourdfpy->pyroki==0.0.0)
+  Downloading manifold3d-3.2.1-cp311-cp311-macosx_10_14_x86_64.whl.metadata (18 kB)
+Requirement already satisfied: jsonschema in /opt/anaconda3/lib/python3.11/site-packages (from trimesh[easy]>=3.11.2->yourdfpy->pyroki==0.0.0) (4.19.2)
+Collecting svg.path (from trimesh[easy]>=3.11.2->yourdfpy->pyroki==0.0.0)
+  Downloading svg_path-7.0-py2.py3-none-any.whl.metadata (14 kB)
+Collecting pycollada (from trimesh[easy]>=3.11.2->yourdfpy->pyroki==0.0.0)
+  Downloading pycollada-0.9.2-py3-none-any.whl.metadata (1.7 kB)
+Collecting shapely (from trimesh[easy]>=3.11.2->yourdfpy->pyroki==0.0.0)
+  Downloading shapely-2.1.1-cp311-cp311-macosx_10_9_x86_64.whl.metadata (6.8 kB)
+Requirement already satisfied: xxhash in /opt/anaconda3/lib/python3.11/site-packages (from trimesh[easy]>=3.11.2->yourdfpy->pyroki==0.0.0) (3.4.1)
+Requirement already satisfied: rtree in /opt/anaconda3/lib/python3.11/site-packages (from trimesh[easy]>=3.11.2->yourdfpy->pyroki==0.0.0) (1.0.1)
+Requirement already satisfied: httpx in /opt/anaconda3/lib/python3.11/site-packages (from trimesh[easy]>=3.11.2->yourdfpy->pyroki==0.0.0) (0.28.1)
+Collecting embreex (from trimesh[easy]>=3.11.2->yourdfpy->pyroki==0.0.0)
+  Downloading embreex-2.17.7.post6-cp311-cp311-macosx_10_9_x86_64.whl.metadata (2.9 kB)
+Collecting vhacdx (from trimesh[easy]>=3.11.2->yourdfpy->pyroki==0.0.0)
+  Downloading vhacdx-0.0.8.post2-cp311-cp311-macosx_10_9_x86_64.whl.metadata (1.1 kB)
+Collecting mapbox_earcut>=1.0.2 (from trimesh[easy]>=3.11.2->yourdfpy->pyroki==0.0.0)
+  Downloading mapbox_earcut-1.0.3-cp311-cp311-macosx_10_9_x86_64.whl.metadata (2.2 kB)
+Requirement already satisfied: smmap<5,>=3.0.1 in /opt/anaconda3/lib/python3.11/site-packages (from gitdb<5,>=4.0.1->GitPython>=3.1.18->robot_descriptions->pyroki==0.0.0) (4.0.0)
+Requirement already satisfied: mdurl~=0.1 in /opt/anaconda3/lib/python3.11/site-packages (from markdown-it-py<3.0.0,>=2.2.0->rich>=13.0.0->jaxls@ git+https://github.com/brentyi/jaxls.git->pyroki==0.0.0) (0.1.0)
+Requirement already satisfied: anyio in /opt/anaconda3/lib/python3.11/site-packages (from httpx->trimesh[easy]>=3.11.2->yourdfpy->pyroki==0.0.0) (4.9.0)
+Requirement already satisfied: httpcore==1.* in /opt/anaconda3/lib/python3.11/site-packages (from httpx->trimesh[easy]>=3.11.2->yourdfpy->pyroki==0.0.0) (1.0.6)
+Requirement already satisfied: h11<0.15,>=0.13 in /opt/anaconda3/lib/python3.11/site-packages (from httpcore==1.*->httpx->trimesh[easy]>=3.11.2->yourdfpy->pyroki==0.0.0) (0.14.0)
+Requirement already satisfied: attrs>=22.2.0 in /opt/anaconda3/lib/python3.11/site-packages (from jsonschema->trimesh[easy]>=3.11.2->yourdfpy->pyroki==0.0.0) (23.1.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in /opt/anaconda3/lib/python3.11/site-packages (from jsonschema->trimesh[easy]>=3.11.2->yourdfpy->pyroki==0.0.0) (2023.7.1)
+Requirement already satisfied: referencing>=0.28.4 in /opt/anaconda3/lib/python3.11/site-packages (from jsonschema->trimesh[easy]>=3.11.2->yourdfpy->pyroki==0.0.0) (0.30.2)
+Requirement already satisfied: rpds-py>=0.7.1 in /opt/anaconda3/lib/python3.11/site-packages (from jsonschema->trimesh[easy]>=3.11.2->yourdfpy->pyroki==0.0.0) (0.10.6)
+Requirement already satisfied: python-dateutil in /opt/anaconda3/lib/python3.11/site-packages (from pycollada->trimesh[easy]>=3.11.2->yourdfpy->pyroki==0.0.0) (2.8.2)
+Requirement already satisfied: sniffio>=1.1 in /opt/anaconda3/lib/python3.11/site-packages (from anyio->httpx->trimesh[easy]>=3.11.2->yourdfpy->pyroki==0.0.0) (1.3.0)
+Downloading jax-0.4.38-py3-none-any.whl (2.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 23.8 MB/s eta 0:00:00
+Downloading jax_dataclasses-1.6.2-py3-none-any.whl (14 kB)
+Downloading jaxlib-0.4.38-cp311-cp311-macosx_10_14_x86_64.whl (99.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 99.7/99.7 MB 27.7 MB/s eta 0:00:00
+Downloading jaxlie-1.5.0-py3-none-any.whl (24 kB)
+Downloading jaxtyping-0.3.2-py3-none-any.whl (55 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 55.4/55.4 kB 1.7 MB/s eta 0:00:00
+Downloading loguru-0.7.3-py3-none-any.whl (61 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.6/61.6 kB 2.1 MB/s eta 0:00:00
+Downloading pyliblzfse-0.4.1-cp311-cp311-macosx_10_9_universal2.whl (41 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.0/41.0 kB 760.5 kB/s eta 0:00:00
+Downloading robot_descriptions-1.20.0-py3-none-any.whl (99 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 99.8/99.8 kB 2.5 MB/s eta 0:00:00
+Downloading trimesh-4.7.1-py3-none-any.whl (709 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 709.0/709.0 kB 14.2 MB/s eta 0:00:00
+Downloading tyro-0.9.27-py3-none-any.whl (129 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 129.0/129.0 kB 2.9 MB/s eta 0:00:00
+Downloading viser-1.0.3-py3-none-any.whl (29.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 29.1/29.1 MB 33.6 MB/s eta 0:00:00
+Downloading yourdfpy-0.0.58-py3-none-any.whl (22 kB)
+Downloading docstring_parser-0.17.0-py3-none-any.whl (36 kB)
+Downloading ml_dtypes-0.5.3-cp311-cp311-macosx_10_9_universal2.whl (667 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 667.4/667.4 kB 17.9 MB/s eta 0:00:00
+Downloading msgspec-0.19.0-cp311-cp311-macosx_10_9_x86_64.whl (187 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 187.9/187.9 kB 5.3 MB/s eta 0:00:00
+Downloading nodeenv-1.9.1-py2.py3-none-any.whl (22 kB)
+Downloading psutil-7.0.0-cp36-abi3-macosx_10_9_x86_64.whl (238 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 238.1/238.1 kB 7.0 MB/s eta 0:00:00
+Downloading shtab-1.7.2-py3-none-any.whl (14 kB)
+Downloading typeguard-4.4.4-py3-none-any.whl (34 kB)
+Downloading wadler_lindig-0.1.7-py3-none-any.whl (20 kB)
+Downloading manifold3d-3.2.1-cp311-cp311-macosx_10_14_x86_64.whl (892 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 892.1/892.1 kB 15.2 MB/s eta 0:00:00
+Downloading mapbox_earcut-1.0.3-cp311-cp311-macosx_10_9_x86_64.whl (71 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 71.1/71.1 kB 1.6 MB/s eta 0:00:00
+Downloading networkx-3.5-py3-none-any.whl (2.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 27.1 MB/s eta 0:00:00
+Downloading embreex-2.17.7.post6-cp311-cp311-macosx_10_9_x86_64.whl (10.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.7/10.7 MB 12.6 MB/s eta 0:00:00
+Downloading pycollada-0.9.2-py3-none-any.whl (128 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.4/128.4 kB 2.5 MB/s eta 0:00:00
+Downloading shapely-2.1.1-cp311-cp311-macosx_10_9_x86_64.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 20.0 MB/s eta 0:00:00
+Downloading svg_path-7.0-py2.py3-none-any.whl (18 kB)
+Downloading vhacdx-0.0.8.post2-cp311-cp311-macosx_10_9_x86_64.whl (214 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 214.2/214.2 kB 5.7 MB/s eta 0:00:00
+Building wheels for collected packages: pyroki, jaxls
+  Building editable for pyroki (pyproject.toml) ... done
+  Created wheel for pyroki: filename=pyroki-0.0.0-0.editable-py3-none-any.whl size=4028 sha256=43c25d1ebf4c2b25c357fe556c60c4b06a39ffc66389b755e89e1a07ecb49125
+  Stored in directory: /private/var/folders/4_/x8jlyh354fl6r5v1zpw5pxn80000gr/T/pip-ephem-wheel-cache-4ptfxjxe/wheels/fd/6a/1b/bb7249b15d149bc3a7ad2b2a95b1b049d69ea02beb33788042
+  Building wheel for jaxls (pyproject.toml) ... done
+  Created wheel for jaxls: filename=jaxls-0.0.0-py3-none-any.whl size=45355 sha256=46a768b1dcb64982ad6da344d762fcd9b82b96e3cb73533a5d5f3901d8954d4a
+  Stored in directory: /private/var/folders/4_/x8jlyh354fl6r5v1zpw5pxn80000gr/T/pip-ephem-wheel-cache-4ptfxjxe/wheels/54/22/4b/e71240c72d22a7bd4e51637854c085742cc79cb8b1502f3d0c
+Successfully built pyroki jaxls
+Installing collected packages: pyliblzfse, wadler-lindig, vhacdx, typeguard, trimesh, svg.path, shtab, shapely, psutil, nodeenv, networkx, msgspec, ml_dtypes, mapbox_earcut, manifold3d, loguru, embreex, docstring-parser, pycollada, jaxtyping, jaxlib, tyro, robot_descriptions, jax, jax_dataclasses, yourdfpy, jaxlie, viser, jaxls, pyroki
+  Attempting uninstall: psutil
+    Found existing installation: psutil 5.9.0
+    Uninstalling psutil-5.9.0:
+      Successfully uninstalled psutil-5.9.0
+  Attempting uninstall: networkx
+    Found existing installation: networkx 2.3
+    Uninstalling networkx-2.3:
+      Successfully uninstalled networkx-2.3
+  Attempting uninstall: ml_dtypes
+    Found existing installation: ml-dtypes 0.3.2
+    Uninstalling ml-dtypes-0.3.2:
+      Successfully uninstalled ml-dtypes-0.3.2
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+tensorflow 2.16.1 requires ml-dtypes~=0.3.1, but you have ml-dtypes 0.5.3 which is incompatible.
+tensorflow 2.16.1 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<5.0.0dev,>=3.20.3, but you have protobuf 6.31.1 which is incompatible.
+Successfully installed docstring-parser-0.17.0 embreex-2.17.7.post6 jax-0.4.38 jax_dataclasses-1.6.2 jaxlib-0.4.38 jaxlie-1.5.0 jaxls-0.0.0 jaxtyping-0.3.2 loguru-0.7.3 manifold3d-3.2.1 mapbox_earcut-1.0.3 ml_dtypes-0.5.3 msgspec-0.19.0 networkx-3.5 nodeenv-1.9.1 psutil-7.0.0 pycollada-0.9.2 pyliblzfse-0.4.1 pyroki-0.0.0 robot_descriptions-1.20.0 shapely-2.1.1 shtab-1.7.2 svg.path-7.0 trimesh-4.7.1 typeguard-4.4.4 tyro-0.9.27 vhacdx-0.0.8.post2 viser-1.0.3 wadler-lindig-0.1.7 yourdfpy-0.0.58

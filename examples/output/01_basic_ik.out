@@ -1,0 +1,230 @@
+(base) anupkaul@147dda4c0851 examples % python 01_basic_ik.py 
+robot from_urdf created..<enter>
+
+╭──────────────── viser ────────────────╮
+│             ╷                         │
+│   HTTP      │ http://localhost:8080   │
+│   Websocket │ ws://localhost:8080     │
+│             ╵                         │
+╰───────────────────────────────────────╯
+setup visualizer..<enter>
+(viser) Connection opened (0, 1 total), 151 persistent messages
+
+setup server scene with initial position..<enter>
+on your browser, open http://localhost:8080/..<enter>
+
+2025-08-06 16:49:43.457 | INFO     | jaxls._py310._core:analyze:83 - Building optimization problem with 2 costs and 1 variables.
+2025-08-06 16:49:43.632 | INFO     | jaxls._py310._core:analyze:158 - Vectorizing group with 1 costs, 1 variables each: limit_cost
+2025-08-06 16:49:44.347 | INFO     | jaxls._py310._core:analyze:158 - Vectorizing group with 1 costs, 1 variables each: _pose_cost_analytical_jac
+
+IK solution:  [ 0.01524443  0.15662928 -0.01684218 -1.5372608   0.00264715  1.6938677
+ -2.3579109   0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.01524443  0.15662928 -0.01684218 -1.5372608   0.00264715  1.6938677
+ -2.3579109   0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.01524443  0.15662928 -0.01684218 -1.5372608   0.00264715  1.6938677
+ -2.3579109   0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.01524443  0.15662928 -0.01684218 -1.5372608   0.00264715  1.6938677
+ -2.3579109   0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.01524443  0.15662928 -0.01684218 -1.5372608   0.00264715  1.6938677
+ -2.3579109   0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.01524443  0.15662928 -0.01684218 -1.5372608   0.00264715  1.6938677
+ -2.3579109   0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.01524443  0.15662928 -0.01684218 -1.5372608   0.00264715  1.6938677
+ -2.3579109   0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.01524443  0.15662928 -0.01684218 -1.5372608   0.00264715  1.6938677
+ -2.3579109   0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.01524443  0.15662928 -0.01684218 -1.5372608   0.00264715  1.6938677
+ -2.3579109   0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.01524443  0.15662928 -0.01684218 -1.5372608   0.00264715  1.6938677
+ -2.3579109   0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.01524443  0.15662928 -0.01684218 -1.5372608   0.00264715  1.6938677
+ -2.3579109   0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.01524443  0.15662928 -0.01684218 -1.5372608   0.00264715  1.6938677
+ -2.3579109   0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.01524443  0.15662928 -0.01684218 -1.5372608   0.00264715  1.6938677
+ -2.3579109   0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.01524443  0.15662928 -0.01684218 -1.5372608   0.00264715  1.6938677
+ -2.3579109   0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.01524443  0.15662928 -0.01684218 -1.5372608   0.00264715  1.6938677
+ -2.3579109   0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.01524443  0.15662928 -0.01684218 -1.5372608   0.00264715  1.6938677
+ -2.3579109   0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.01524443  0.15662928 -0.01684218 -1.5372608   0.00264715  1.6938677
+ -2.3579109   0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.01524443  0.15662928 -0.01684218 -1.5372608   0.00264715  1.6938677
+ -2.3579109   0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.01524443  0.15662928 -0.01684218 -1.5372608   0.00264715  1.6938677
+ -2.3579109   0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution: 
+
+ [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+
+
+IK solution:  [ 0.04657182 -0.11640815  0.05387138 -2.1875532   0.697016    3.736209
+  0.45373812  0.02      ]  update_cfg in visualizer..
+^CTraceback (most recent call last):
+  File "/Users/anupkaul/other_git/robots/pyroki/examples/01_basic_ik.py", line 66, in <module>
+    main()
+  File "/Users/anupkaul/other_git/robots/pyroki/examples/01_basic_ik.py", line 61, in main
+    input() 
+    ^^^^^^^
+KeyboardInterrupt
+(viser) Connection closed (0, 0 total)
+(viser) Server stopped

@@ -1,0 +1,111 @@
+pip install -r docs/requirements.txt 
+Collecting git+https://github.com/brentyi/sphinxcontrib-programoutput.git (from -r docs/requirements.txt (line 6))
+  Cloning https://github.com/brentyi/sphinxcontrib-programoutput.git to /private/var/folders/4_/x8jlyh354fl6r5v1zpw5pxn80000gr/T/pip-req-build-xfcg8_if
+  Running command git clone --filter=blob:none --quiet https://github.com/brentyi/sphinxcontrib-programoutput.git /private/var/folders/4_/x8jlyh354fl6r5v1zpw5pxn80000gr/T/pip-req-build-xfcg8_if
+  Resolved https://github.com/brentyi/sphinxcontrib-programoutput.git to commit 2347f4cfe7bea9efc08ddaef404d543a5bf3300a
+  Preparing metadata (setup.py) ... done
+Collecting git+https://github.com/brentyi/ansi.git (from -r docs/requirements.txt (line 7))
+  Cloning https://github.com/brentyi/ansi.git to /private/var/folders/4_/x8jlyh354fl6r5v1zpw5pxn80000gr/T/pip-req-build-_ar53496
+  Running command git clone --filter=blob:none --quiet https://github.com/brentyi/ansi.git /private/var/folders/4_/x8jlyh354fl6r5v1zpw5pxn80000gr/T/pip-req-build-_ar53496
+  Resolved https://github.com/brentyi/ansi.git to commit 5bbadd82a10d83fa235bbfa405ffa45c2afc3e66
+  Preparing metadata (setup.py) ... done
+Collecting git+https://github.com/sphinx-contrib/googleanalytics.git (from -r docs/requirements.txt (line 8))
+  Cloning https://github.com/sphinx-contrib/googleanalytics.git to /private/var/folders/4_/x8jlyh354fl6r5v1zpw5pxn80000gr/T/pip-req-build-80zawh4a
+  Running command git clone --filter=blob:none --quiet https://github.com/sphinx-contrib/googleanalytics.git /private/var/folders/4_/x8jlyh354fl6r5v1zpw5pxn80000gr/T/pip-req-build-80zawh4a
+  Resolved https://github.com/sphinx-contrib/googleanalytics.git to commit 81bf73543b8a82c727024df7a86ff3df1683996b
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting sphinx==8.0.2 (from -r docs/requirements.txt (line 1))
+  Downloading sphinx-8.0.2-py3-none-any.whl.metadata (6.2 kB)
+Collecting furo==2024.8.6 (from -r docs/requirements.txt (line 2))
+  Downloading furo-2024.8.6-py3-none-any.whl.metadata (5.9 kB)
+Collecting docutils==0.20.1 (from -r docs/requirements.txt (line 3))
+  Downloading docutils-0.20.1-py3-none-any.whl.metadata (2.8 kB)
+Requirement already satisfied: toml==0.10.2 in /opt/anaconda3/lib/python3.11/site-packages (from -r docs/requirements.txt (line 4)) (0.10.2)
+Collecting sphinxcontrib-video==0.4.1 (from -r docs/requirements.txt (line 5))
+  Downloading sphinxcontrib_video-0.4.1-py3-none-any.whl.metadata (3.9 kB)
+Requirement already satisfied: snowballstemmer==2.2.0 in /opt/anaconda3/lib/python3.11/site-packages (from -r docs/requirements.txt (line 10)) (2.2.0)
+Requirement already satisfied: sphinxcontrib-applehelp in /opt/anaconda3/lib/python3.11/site-packages (from sphinx==8.0.2->-r docs/requirements.txt (line 1)) (1.0.2)
+Requirement already satisfied: sphinxcontrib-devhelp in /opt/anaconda3/lib/python3.11/site-packages (from sphinx==8.0.2->-r docs/requirements.txt (line 1)) (1.0.2)
+Requirement already satisfied: sphinxcontrib-jsmath in /opt/anaconda3/lib/python3.11/site-packages (from sphinx==8.0.2->-r docs/requirements.txt (line 1)) (1.0.1)
+Requirement already satisfied: sphinxcontrib-htmlhelp>=2.0.0 in /opt/anaconda3/lib/python3.11/site-packages (from sphinx==8.0.2->-r docs/requirements.txt (line 1)) (2.0.0)
+Collecting sphinxcontrib-serializinghtml>=1.1.9 (from sphinx==8.0.2->-r docs/requirements.txt (line 1))
+  Downloading sphinxcontrib_serializinghtml-2.0.0-py3-none-any.whl.metadata (2.4 kB)
+Requirement already satisfied: sphinxcontrib-qthelp in /opt/anaconda3/lib/python3.11/site-packages (from sphinx==8.0.2->-r docs/requirements.txt (line 1)) (1.0.3)
+Requirement already satisfied: Jinja2>=3.1 in /opt/anaconda3/lib/python3.11/site-packages (from sphinx==8.0.2->-r docs/requirements.txt (line 1)) (3.1.3)
+Collecting Pygments>=2.17 (from sphinx==8.0.2->-r docs/requirements.txt (line 1))
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting babel>=2.13 (from sphinx==8.0.2->-r docs/requirements.txt (line 1))
+  Downloading babel-2.17.0-py3-none-any.whl.metadata (2.0 kB)
+Collecting alabaster>=0.7.14 (from sphinx==8.0.2->-r docs/requirements.txt (line 1))
+  Downloading alabaster-1.0.0-py3-none-any.whl.metadata (2.8 kB)
+Requirement already satisfied: imagesize>=1.3 in /opt/anaconda3/lib/python3.11/site-packages (from sphinx==8.0.2->-r docs/requirements.txt (line 1)) (1.4.1)
+Requirement already satisfied: requests>=2.30.0 in /opt/anaconda3/lib/python3.11/site-packages (from sphinx==8.0.2->-r docs/requirements.txt (line 1)) (2.32.2)
+Requirement already satisfied: packaging>=23.0 in /opt/anaconda3/lib/python3.11/site-packages (from sphinx==8.0.2->-r docs/requirements.txt (line 1)) (24.2)
+Requirement already satisfied: beautifulsoup4 in /opt/anaconda3/lib/python3.11/site-packages (from furo==2024.8.6->-r docs/requirements.txt (line 2)) (4.12.2)
+Collecting sphinx-basic-ng>=1.0.0.beta2 (from furo==2024.8.6->-r docs/requirements.txt (line 2))
+  Downloading sphinx_basic_ng-1.0.0b2-py3-none-any.whl.metadata (1.5 kB)
+Requirement already satisfied: MarkupSafe>=2.0 in /opt/anaconda3/lib/python3.11/site-packages (from Jinja2>=3.1->sphinx==8.0.2->-r docs/requirements.txt (line 1)) (2.1.3)
+Requirement already satisfied: charset-normalizer<4,>=2 in /opt/anaconda3/lib/python3.11/site-packages (from requests>=2.30.0->sphinx==8.0.2->-r docs/requirements.txt (line 1)) (2.0.4)
+Requirement already satisfied: idna<4,>=2.5 in /opt/anaconda3/lib/python3.11/site-packages (from requests>=2.30.0->sphinx==8.0.2->-r docs/requirements.txt (line 1)) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/anaconda3/lib/python3.11/site-packages (from requests>=2.30.0->sphinx==8.0.2->-r docs/requirements.txt (line 1)) (2.0.7)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/anaconda3/lib/python3.11/site-packages (from requests>=2.30.0->sphinx==8.0.2->-r docs/requirements.txt (line 1)) (2024.7.4)
+Requirement already satisfied: soupsieve>1.2 in /opt/anaconda3/lib/python3.11/site-packages (from beautifulsoup4->furo==2024.8.6->-r docs/requirements.txt (line 2)) (2.5)
+Downloading sphinx-8.0.2-py3-none-any.whl (3.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.5/3.5 MB 24.9 MB/s eta 0:00:00
+Downloading furo-2024.8.6-py3-none-any.whl (341 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 341.3/341.3 kB 8.0 MB/s eta 0:00:00
+Downloading docutils-0.20.1-py3-none-any.whl (572 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 572.7/572.7 kB 14.1 MB/s eta 0:00:00
+Downloading sphinxcontrib_video-0.4.1-py3-none-any.whl (10 kB)
+Downloading alabaster-1.0.0-py3-none-any.whl (13 kB)
+Downloading babel-2.17.0-py3-none-any.whl (10.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.2/10.2 MB 39.2 MB/s eta 0:00:00
+Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 22.8 MB/s eta 0:00:00
+Downloading sphinx_basic_ng-1.0.0b2-py3-none-any.whl (22 kB)
+Downloading sphinxcontrib_serializinghtml-2.0.0-py3-none-any.whl (92 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 92.1/92.1 kB 3.0 MB/s eta 0:00:00
+Building wheels for collected packages: sphinxcontrib-programoutput, sphinxcontrib-ansi, sphinxcontrib-googleanalytics
+  Building wheel for sphinxcontrib-programoutput (setup.py) ... done
+  Created wheel for sphinxcontrib-programoutput: filename=sphinxcontrib_programoutput-0.18.dev0-py2.py3-none-any.whl size=22372 sha256=c2d4afddc9ed5ef8559e2739bef9fe9219722d6797ad0c55317383e79e57a6cb
+  Stored in directory: /private/var/folders/4_/x8jlyh354fl6r5v1zpw5pxn80000gr/T/pip-ephem-wheel-cache-mfmsq0vs/wheels/f2/26/87/13b14ff90a97f22422e3417eb2272ac43683d57408198f4ea1
+  Building wheel for sphinxcontrib-ansi (setup.py) ... done
+  Created wheel for sphinxcontrib-ansi: filename=sphinxcontrib_ansi-0.7.0.dev20250806-py3-none-any.whl size=7301 sha256=b8e5230f0f5c8ce31d2c0a66e9243023245712c083a844ab4e7ddcf0353ebdc5
+  Stored in directory: /private/var/folders/4_/x8jlyh354fl6r5v1zpw5pxn80000gr/T/pip-ephem-wheel-cache-mfmsq0vs/wheels/c2/5d/53/15f2a2b99740ed7e17e08580621d8ab56de330fd11fb2266a0
+  Building wheel for sphinxcontrib-googleanalytics (pyproject.toml) ... done
+  Created wheel for sphinxcontrib-googleanalytics: filename=sphinxcontrib_googleanalytics-0.5-py3-none-any.whl size=4248 sha256=b306a3d4b0524d5f08d2ce9daefb36e2c796887eb3bb7cb2478949bd4778cda0
+  Stored in directory: /private/var/folders/4_/x8jlyh354fl6r5v1zpw5pxn80000gr/T/pip-ephem-wheel-cache-mfmsq0vs/wheels/07/e5/85/41b8e7b9294e7298e00172683baa24566391484eda361c3601
+Successfully built sphinxcontrib-programoutput sphinxcontrib-ansi sphinxcontrib-googleanalytics
+Installing collected packages: sphinxcontrib-serializinghtml, Pygments, docutils, babel, alabaster, sphinx, sphinxcontrib-video, sphinxcontrib-programoutput, sphinxcontrib-googleanalytics, sphinxcontrib-ansi, sphinx-basic-ng, furo
+  Attempting uninstall: sphinxcontrib-serializinghtml
+    Found existing installation: sphinxcontrib-serializinghtml 1.1.5
+    Uninstalling sphinxcontrib-serializinghtml-1.1.5:
+      Successfully uninstalled sphinxcontrib-serializinghtml-1.1.5
+  Attempting uninstall: Pygments
+    Found existing installation: Pygments 2.15.1
+    Uninstalling Pygments-2.15.1:
+      Successfully uninstalled Pygments-2.15.1
+  Attempting uninstall: docutils
+    Found existing installation: docutils 0.18.1
+    Uninstalling docutils-0.18.1:
+      Successfully uninstalled docutils-0.18.1
+  Attempting uninstall: babel
+    Found existing installation: Babel 2.11.0
+    Uninstalling Babel-2.11.0:
+      Successfully uninstalled Babel-2.11.0
+  Attempting uninstall: alabaster
+    Found existing installation: alabaster 0.7.12
+    Uninstalling alabaster-0.7.12:
+      Successfully uninstalled alabaster-0.7.12
+  Attempting uninstall: sphinx
+    Found existing installation: Sphinx 5.0.2
+    Uninstalling Sphinx-5.0.2:
+      Successfully uninstalled Sphinx-5.0.2
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+tensorflow 2.16.1 requires ml-dtypes~=0.3.1, but you have ml-dtypes 0.5.3 which is incompatible.
+tensorflow 2.16.1 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<5.0.0dev,>=3.20.3, but you have protobuf 6.31.1 which is incompatible.
+Successfully installed Pygments-2.19.2 alabaster-1.0.0 babel-2.17.0 docutils-0.20.1 furo-2024.8.6 sphinx-8.0.2 sphinx-basic-ng-1.0.0b2 sphinxcontrib-ansi-0.7.0.dev20250806 sphinxcontrib-googleanalytics-0.5 sphinxcontrib-programoutput-0.18.dev0 sphinxcontrib-serializinghtml-2.0.0 sphinxcontrib-video-0.4.1
+(base) anupkaul@147dda4c0851 pyroki % 
+
