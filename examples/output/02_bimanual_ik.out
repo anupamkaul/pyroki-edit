@@ -1,0 +1,35 @@
+python 02_bimanual_ik.py 
+Cloning https://github.com/ankurhanda/robot-assets.git...
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 137.0/137.0 [00:15<00:00,  8.90it/s]
+2025-08-08 09:28:08.832 | INFO     | pyroki._robot_urdf_parser:_topologically_sort_joints:198 - Joints were not in topological order; they will be internally sorted.
+robot created .. <enter>
+
+╭──────────────── viser ────────────────╮
+│             ╷                         │
+│   HTTP      │ http://localhost:8080   │
+│   Websocket │ ws://localhost:8080     │
+│             ╵                         │
+╰───────────────────────────────────────╯
+interactive controller with initial position created ..<enter>
+(viser) Connection opened (0, 1 total), 104 persistent messages
+
+2025-08-08 09:28:40.070 | INFO     | jaxls._py310._core:analyze:83 - Building optimization problem with 4 costs and 1 variables.
+2025-08-08 09:28:40.185 | INFO     | jaxls._py310._core:analyze:158 - Vectorizing group with 1 costs, 1 variables each: rest_cost
+2025-08-08 09:28:40.454 | INFO     | jaxls._py310._core:analyze:158 - Vectorizing group with 1 costs, 1 variables each: limit_cost
+2025-08-08 09:28:41.145 | INFO     | jaxls._py310._core:analyze:158 - Vectorizing group with 2 costs, 1 variables each: _pose_cost_analytical_jac
+
+
+
+^CTraceback (most recent call last):
+  File "/Users/anupkaul/akaul_git/pyroki-edit/examples/02_bimanual_ik.py", line 62, in <module>
+    main()
+  File "/Users/anupkaul/akaul_git/pyroki-edit/examples/02_bimanual_ik.py", line 46, in main
+    solution = pks.solve_ik_with_multiple_targets(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/anupkaul/akaul_git/pyroki-edit/examples/pyroki_snippets/_solve_ik_with_multiple_targets.py", line 47, in solve_ik_with_multiple_targets
+    return onp.array(cfg)
+           ^^^^^^^^^^^^^^
+KeyboardInterrupt
+(viser) Connection closed (0, 0 total)
+(viser) Server stopped
+

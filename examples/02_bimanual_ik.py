@@ -21,6 +21,8 @@ def main():
 
     # Create robot.
     robot = pk.Robot.from_urdf(urdf)
+    print("robot created .. <enter>")
+    input()
 
     # Set up visualizer.
     server = viser.ViserServer()
@@ -35,6 +37,8 @@ def main():
         "/ik_target_1", scale=0.2, position=(0.41, 0.3, 0.56), wxyz=(0, 0, 1, 0)
     )
     timing_handle = server.gui.add_number("Elapsed (ms)", 0.001, disabled=True)
+    print("interactive controller with initial position created ..<enter>")
+    input()
 
     while True:
         # Solve IK.
