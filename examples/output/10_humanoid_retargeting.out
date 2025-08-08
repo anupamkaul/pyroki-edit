@@ -1,0 +1,67 @@
+python 10_humanoid_retargeting.py 
+Cloning https://github.com/unitreerobotics/unitree_ros.git...
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 870.0/870.0 [00:23<00:00, 36.66it/s]
+2025-08-08 10:11:09.805 | DEBUG    | pyroki._robot_urdf_parser:_get_T_parent_joint:399 - Joint 'pelvis_contour_joint' has no origin, assuming identity transform.
+╭──────────────── viser ────────────────╮
+│             ╷                         │
+│   HTTP      │ http://localhost:8080   │
+│   Websocket │ ws://localhost:8080     │
+│             ╵                         │
+╰───────────────────────────────────────╯
+2025-08-08 10:11:13.672 | INFO     | jaxls._py310._core:analyze:83 - Building optimization problem with 609 costs and 488 variables.
+2025-08-08 10:11:13.714 | INFO     | jaxls._py310._core:analyze:158 - Vectorizing group with 122 costs, 1 variables each: limit_cost
+2025-08-08 10:11:13.860 | INFO     | jaxls._py310._core:analyze:158 - Vectorizing group with 122 costs, 2 variables each: pc_alignment_cost
+2025-08-08 10:11:13.877 | INFO     | jaxls._py310._core:analyze:158 - Vectorizing group with 122 costs, 1 variables each: rest_cost
+2025-08-08 10:11:13.903 | INFO     | jaxls._py310._core:analyze:158 - Vectorizing group with 121 costs, 2 variables each: smoothness_cost
+2025-08-08 10:11:13.982 | INFO     | jaxls._py310._core:analyze:158 - Vectorizing group with 122 costs, 3 variables each: retargeting_cost
+(viser) Connection opened (0, 1 total), 191 persistent messages
+2025-08-08 10:11:42.423 | INFO     | jaxls._py310.utils:_log:23 -  step #0: cost=5898.3672 lambd=0.0005 term_deltas=0.0e+00,0.0e+00,0.0e+00 inexact_tol=1.0e-02
+2025-08-08 10:11:42.426 | INFO     | jaxls._py310.utils:_log:23 -      - limit_cost(122): 0.00000 (avg 0.00000)
+2025-08-08 10:11:42.427 | INFO     | jaxls._py310.utils:_log:23 -      - pc_alignment_cost(122): 2236.66431 (avg 0.47008)
+2025-08-08 10:11:42.429 | INFO     | jaxls._py310.utils:_log:23 -      - rest_cost(122): 0.00000 (avg 0.00000)
+2025-08-08 10:11:42.430 | INFO     | jaxls._py310.utils:_log:23 -      - smoothness_cost(121): 0.00000 (avg 0.00000)
+2025-08-08 10:11:42.434 | INFO     | jaxls._py310.utils:_log:23 -      - retargeting_cost(122): 3661.70312 (avg 0.04440)
+2025-08-08 10:11:45.030 | INFO     | jaxls._py310.utils:_log:23 -  step #1: cost=983.7021 lambd=0.0003 term_deltas=8.3e-01,9.1e+01,2.0e-02 inexact_tol=1.0e-02
+2025-08-08 10:11:45.032 | INFO     | jaxls._py310.utils:_log:23 -      - limit_cost(122): 0.00000 (avg 0.00000)
+2025-08-08 10:11:45.033 | INFO     | jaxls._py310.utils:_log:23 -      - pc_alignment_cost(122): 118.32905 (avg 0.02487)
+2025-08-08 10:11:45.033 | INFO     | jaxls._py310.utils:_log:23 -      - rest_cost(122): 13.26519 (avg 0.00294)
+2025-08-08 10:11:45.034 | INFO     | jaxls._py310.utils:_log:23 -      - smoothness_cost(121): 0.04985 (avg 0.00001)
+2025-08-08 10:11:45.035 | INFO     | jaxls._py310.utils:_log:23 -      - retargeting_cost(122): 852.05811 (avg 0.01033)
+2025-08-08 10:11:47.521 | INFO     | jaxls._py310.utils:_log:23 -  step #2: cost=983.7021 lambd=0.0005 term_deltas=6.4e+00,3.4e+00,1.5e-02 inexact_tol=1.0e-02
+2025-08-08 10:11:47.522 | INFO     | jaxls._py310.utils:_log:23 -      - limit_cost(122): 0.00000 (avg 0.00000)
+2025-08-08 10:11:47.523 | INFO     | jaxls._py310.utils:_log:23 -      - pc_alignment_cost(122): 118.32905 (avg 0.02487)
+2025-08-08 10:11:47.524 | INFO     | jaxls._py310.utils:_log:23 -      - rest_cost(122): 13.26519 (avg 0.00294)
+2025-08-08 10:11:47.525 | INFO     | jaxls._py310.utils:_log:23 -      - smoothness_cost(121): 0.04985 (avg 0.00001)
+2025-08-08 10:11:47.526 | INFO     | jaxls._py310.utils:_log:23 -      - retargeting_cost(122): 852.05811 (avg 0.01033)
+2025-08-08 10:11:49.668 | INFO     | jaxls._py310.utils:_log:23 -  step #3: cost=983.7021 lambd=0.0010 term_deltas=6.3e+00,3.4e+00,1.5e-02 inexact_tol=1.0e-02
+2025-08-08 10:11:49.669 | INFO     | jaxls._py310.utils:_log:23 -      - limit_cost(122): 0.00000 (avg 0.00000)
+2025-08-08 10:11:49.669 | INFO     | jaxls._py310.utils:_log:23 -      - pc_alignment_cost(122): 118.32905 (avg 0.02487)
+2025-08-08 10:11:49.670 | INFO     | jaxls._py310.utils:_log:23 -      - rest_cost(122): 13.26519 (avg 0.00294)
+2025-08-08 10:11:49.670 | INFO     | jaxls._py310.utils:_log:23 -      - smoothness_cost(121): 0.04985 (avg 0.00001)
+2025-08-08 10:11:49.670 | INFO     | jaxls._py310.utils:_log:23 -      - retargeting_cost(122): 852.05811 (avg 0.01033)
+2025-08-08 10:11:52.056 | INFO     | jaxls._py310.utils:_log:23 -  step #4: cost=983.7021 lambd=0.0020 term_deltas=6.2e+00,3.4e+00,1.5e-02 inexact_tol=1.0e-02
+2025-08-08 10:11:52.057 | INFO     | jaxls._py310.utils:_log:23 -      - limit_cost(122): 0.00000 (avg 0.00000)
+2025-08-08 10:11:52.057 | INFO     | jaxls._py310.utils:_log:23 -      - pc_alignment_cost(122): 118.32905 (avg 0.02487)
+2025-08-08 10:11:52.058 | INFO     | jaxls._py310.utils:_log:23 -      - rest_cost(122): 13.26519 (avg 0.00294)
+2025-08-08 10:11:52.058 | INFO     | jaxls._py310.utils:_log:23 -      - smoothness_cost(121): 0.04985 (avg 0.00001)
+2025-08-08 10:11:52.059 | INFO     | jaxls._py310.utils:_log:23 -      - retargeting_cost(122): 852.05811 (avg 0.01033)
+2025-08-08 10:11:54.458 | INFO     | jaxls._py310.utils:_log:23 -  step #5: cost=983.7021 lambd=0.0040 term_deltas=6.0e+00,3.4e+00,1.5e-02 inexact_tol=1.0e-02
+2025-08-08 10:11:54.460 | INFO     | jaxls._py310.utils:_log:23 -      - limit_cost(122): 0.00000 (avg 0.00000)
+2025-08-08 10:11:54.461 | INFO     | jaxls._py310.utils:_log:23 -      - pc_alignment_cost(122): 118.32905 (avg 0.02487)
+2025-08-08 10:11:54.462 | INFO     | jaxls._py310.utils:_log:23 -      - rest_cost(122): 13.26519 (avg 0.00294)
+2025-08-08 10:11:54.463 | INFO     | jaxls._py310.utils:_log:23 -      - smoothness_cost(121): 0.04985 (avg 0.00001)
+2025-08-08 10:11:54.464 | INFO     | jaxls._py310.utils:_log:23 -      - retargeting_cost(122): 852.05811 (avg 0.01033)
+2025-08-08 10:11:56.764 | INFO     | jaxls._py310.utils:_log:23 -  step #6: cost=983.7021 lambd=0.0080 term_deltas=5.7e+00,3.4e+00,1.5e-02 inexact_tol=1.0e-02
+2025-08-08 10:11:56.765 | INFO     | jaxls._py310.utils:_log:23 -      - limit_cost(122): 0.00000 (avg 0.00000)
+2025-08-08 10:11:56.765 | INFO     | jaxls._py310.utils:_log:23 -      - pc_alignment_cost(122): 118.32905 (avg 0.02487)
+2025-08-08 10:11:56.766 | INFO     | jaxls._py310.utils:_log:23 -      - rest_cost(122): 13.26519 (avg 0.00294)
+2025-08-08 10:11:56.766 | INFO     | jaxls._py310.utils:_log:23 -      - smoothness_cost(121): 0.04985 (avg 0.00001)
+2025-08-08 10:11:56.767 | INFO     | jaxls._py310.utils:_log:23 -      - retargeting_cost(122): 852.05811 (avg 0.01033)
+^C
+2025-08-08 10:11:58.873 | INFO     | jaxls._py310.utils:_log:23 -  step #7: cost=983.7021 lambd=0.0160 term_deltas=5.0e+00,3.4e+00,1.4e-02 inexact_tol=1.0e-02
+2025-08-08 10:11:58.874 | INFO     | jaxls._py310.utils:_log:23 -      - limit_cost(122): 0.00000 (avg 0.00000)
+2025-08-08 10:11:58.875 | INFO     | jaxls._py310.utils:_log:23 -      - pc_alignment_cost(122): 118.32905 (avg 0.02487)
+2025-08-08 10:11:58.876 | INFO     | jaxls._py310.utils:_log:23 -      - rest_cost(122): 13.26519 (avg 0.00294)
+2025-08-08 10:11:58.877 | INFO     | jaxls._py310.utils:_log:23 -      - smoothness_cost(121): 0.04985 (avg 0.00001)
+2025-08-08 10:11:58.878 | INFO     | jaxls._py310.utils:_log:23 -      - retargeting_cost(122): 852.05811 (avg 0.01033)
+2025-08-08 10:12:00.965 | INFO     | jaxls._py310.utils:_log:23 -  step #8: cost=983.7021 lambd=0.0320 term_deltas=3.9e+00,3.4e+00,1.4e-02 inexact_tol=1.0e-0
